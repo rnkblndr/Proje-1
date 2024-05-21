@@ -1,0 +1,155 @@
+*{
+    margin:0px;
+    padding: 0px;
+   list-style-type: none;
+
+}
+.metin-header {
+    color: #65B741;
+    background-color: #FBF6EE;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+body {
+  background-image: url(img/arkaa\ fon\ noktalı\ .jpeg);
+}
+.kapsa{
+    width: 720px;
+    margin: 0px auto;
+}
+
+.orta {
+    background-color:#FED9ED
+}
+.ust {
+    width: 720px;
+    float: left;
+}
+.ust_menu {
+    background-color: palevioletred;
+    width: 720px;
+    text-align: center; 
+}
+
+.ust_menu ul li a {
+   display: block;
+   padding: 15px;
+   color:white;
+   font-size: 18px;
+   text-decoration: none;
+    
+}
+.ust_menu ul li a:hover {
+    background-color: #FFEFE8;
+    border-right: 10 px solid #FED9ED ;
+    color: black;
+    padding-left: 20px;
+}
+.alt {
+    width: 720px;  
+    float: left;
+}
+.alt_menu{
+    display: block;
+    height: 50px;
+    width: 720px;
+    
+}
+
+
+.alt_menu ul li {
+    float: left;
+}
+.alt_menu ul li a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 240px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.alt_menu ul li a:hover {
+    color: black;
+    background-color:#EBF3E8 ;
+}
+
+.ana_resim{
+    display: block;
+    width: 670px;
+    height: 100px;
+    
+    
+}
+h2,h3{
+    text-align: center;
+}
+p{
+    display: inline-block;
+    line-height: 140%;
+    gap: 70px;
+    font-size: 20px;
+}
+.flex-box {
+    
+    background-color: #FED9ED;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border: none; 
+    
+    
+}
+  article {
+    border: 5px solid #EEE7DA ;
+    position: relative;
+    padding: 20px;
+  }
+ h2{
+    color: #607274 ;
+ }
+ 
+ h3{
+    color: #65B741;
+ }
+ .link{
+    color: #65B741;
+    text-decoration: none;
+ }
+ 
+ .seramik {
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 20px 30px 0 rgba(238, 212, 216); 
+  }
+  
+  
+ .seramik-fiyat{
+    display: flex;
+    flex:1;
+    color: palevioletred;
+    justify-content: space-between;
+    font-size: 20px;
+    flex-direction: column;
+ }
+ 
+ 
+ .btn{
+    color: rgb(203, 128, 74);
+    text-decoration: none;
+     
+}
+ .grid-1-sütun{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+ }
+ 
+
+
+  
+  
